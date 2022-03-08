@@ -1,0 +1,82 @@
+body{
+  background-color: white;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  width:100vw;
+  height:100vh;
+  margin:0;
+  padding:0;
+
+}
+button{
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: .9rem;
+  background: hsl(0, 0%, 95%);
+  padding: 12px 25px;
+  text-decoration: none;
+  margin-top:70px;
+  border: 2px solid white;
+  cursor: pointer;
+  font-weight: 500;
+
+}
+
+div{
+  padding: 50px;
+}
+
+h1{
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+main{
+  width: 70%;
+  display: flex;
+  margin: 15%;
+  border-radius:2%;
+}
+
+p{
+  font-family: 'Lexend Deca', sans-serif;
+  color:hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1.5;
+}
+
+.Sedan{
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 2% 0 0 2%;
+}
+
+.SUV{
+  background-color: hsl(184, 100%, 22%);
+}
+
+.Luxury{
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 2% 2% 0;
+}
+
+.Sedanbutton{
+  color:hsl(31, 77%, 52%);
+}
+.SUVbutton{
+  color: hsl(184, 100%, 22%);
+}
+.Luxurybutton{
+  color:hsl(179, 100%, 13%);
+}
+button:hover{
+  background-color: inherit;
+  color: hsl(0, 0%, 95%);
+}
